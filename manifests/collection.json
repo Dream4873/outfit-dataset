@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/T-shirt.json",
     "label" : "T-shirt"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Trousers.json",
+    "label" : "Trousers"
   } ]
 }
