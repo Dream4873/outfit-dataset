@@ -41,5 +41,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Bag.json",
     "label" : "Bag"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Ankle-boot.json",
+    "label" : "Ankle-boot"
   } ]
 }
