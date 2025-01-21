@@ -37,5 +37,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Sneaker.json",
     "label" : "Sneaker"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Bag.json",
+    "label" : "Bag"
   } ]
 }
