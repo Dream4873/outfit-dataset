@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Sneaker.json",
+  "@type" : "sc:Manifest",
+  "label" : "Sneaker",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Sneaker",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Nooshin",
+  "sequences" : [ {
+    "@id" : "http://2911cb8b-1d11-48cc-aad5-76f1393da4e4",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://01c5fdf5-f6e1-4721-8c6b-e73e11b6c0bb",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 682,
+      "width" : 1024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a2ffd20b-261a-4b9a-9d75-44509f7f6420",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dream4873.github.io/outfit-dataset/images/Sneaker/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dream4873.github.io/outfit-dataset/images/Sneaker",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 682,
+          "width" : 1024
+        },
+        "on" : "http://01c5fdf5-f6e1-4721-8c6b-e73e11b6c0bb"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
