@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Dress.json",
+  "@type" : "sc:Manifest",
+  "label" : "Dress",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Dress",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Nooshin",
+  "sequences" : [ {
+    "@id" : "http://58aa3a4d-c92e-4d0b-b514-466b06c75741",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://3ce6f4e6-559b-40bb-89e4-6f64190b201e",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1125,
+      "width" : 750,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1ec88a1b-5642-4614-8777-a25b82e862bb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dream4873.github.io/outfit-dataset/images/Dress/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dream4873.github.io/outfit-dataset/images/Dress",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1125,
+          "width" : 750
+        },
+        "on" : "http://3ce6f4e6-559b-40bb-89e4-6f64190b201e"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
