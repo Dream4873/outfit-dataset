@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://Dream4873.github.io/outfit-dataset/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in Dream4873/outfit-dataset project"
+        ]
+    },
+    "items": []
+}
