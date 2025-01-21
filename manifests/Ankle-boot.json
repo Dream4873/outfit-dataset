@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Ankle-boot.json",
+  "@type" : "sc:Manifest",
+  "label" : "Ankle-boot",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Ankle-boot",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Nooshin",
+  "sequences" : [ {
+    "@id" : "http://53db284e-acf1-43a5-bd4c-c7057a22f4a7",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b7932a18-c1c9-4cb5-8a3a-45407e6f3932",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 900,
+      "width" : 900,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6144d216-d042-4302-9129-9e985e703cf1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dream4873.github.io/outfit-dataset/images/ankle-boot/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dream4873.github.io/outfit-dataset/images/ankle-boot",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 900,
+          "width" : 900
+        },
+        "on" : "http://b7932a18-c1c9-4cb5-8a3a-45407e6f3932"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
