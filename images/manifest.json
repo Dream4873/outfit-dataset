@@ -7,5 +7,87 @@
             "All images loaded in Dream4873/outfit-dataset project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://Dream4873.github.io/outfit-dataset/images/T-shirt/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "T-shirt"
+                ]
+            },
+            "height": 1024,
+            "width": 682,
+            "items": [
+                {
+                    "id": "https://Dream4873.github.io/outfit-dataset/images/T-shirt/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://Dream4873.github.io/outfit-dataset/images/T-shirt/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://Dream4873.github.io/outfit-dataset/images/T-shirt/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 22,
+                                                "height": 32
+                                            },
+                                            {
+                                                "width": 43,
+                                                "height": 64
+                                            },
+                                            {
+                                                "width": 86,
+                                                "height": 128
+                                            },
+                                            {
+                                                "width": 171,
+                                                "height": 256
+                                            },
+                                            {
+                                                "width": 341,
+                                                "height": 512
+                                            },
+                                            {
+                                                "width": 682,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 682,
+                                        "@id": "https://Dream4873.github.io/outfit-dataset/images/T-shirt",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1024,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://Dream4873.github.io/outfit-dataset/images/T-shirt/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
