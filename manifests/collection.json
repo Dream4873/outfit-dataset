@@ -1,0 +1,13 @@
+{
+  "id" : "https://Dream4873.github.io/outfit-dataset/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Dream4873/outfit-dataset project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/T-shirt.json",
+    "label" : "T-shirt"
+  } ]
+}
