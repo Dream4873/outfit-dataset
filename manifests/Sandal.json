@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Sandal.json",
+  "@type" : "sc:Manifest",
+  "label" : "Sandal",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Sandal",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Nooshin",
+  "sequences" : [ {
+    "@id" : "http://dd164a8b-1bf6-4572-bb4d-a017930bf916",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://504098fc-3cfc-4b2c-a066-35b43f9397ed",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 900,
+      "width" : 630,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d0d70178-76b9-40c0-a27c-8012e5838d99",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dream4873.github.io/outfit-dataset/images/Sandal/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dream4873.github.io/outfit-dataset/images/Sandal",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 900,
+          "width" : 630
+        },
+        "on" : "http://504098fc-3cfc-4b2c-a066-35b43f9397ed"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
