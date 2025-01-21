@@ -252,6 +252,87 @@
             ]
         },
         {
+            "id": "https://Dream4873.github.io/outfit-dataset/images/bag/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "bag"
+                ]
+            },
+            "height": 1000,
+            "width": 750,
+            "items": [
+                {
+                    "id": "https://Dream4873.github.io/outfit-dataset/images/bag/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://Dream4873.github.io/outfit-dataset/images/bag/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://Dream4873.github.io/outfit-dataset/images/bag/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 24,
+                                                "height": 32
+                                            },
+                                            {
+                                                "width": 47,
+                                                "height": 63
+                                            },
+                                            {
+                                                "width": 94,
+                                                "height": 125
+                                            },
+                                            {
+                                                "width": 188,
+                                                "height": 250
+                                            },
+                                            {
+                                                "width": 375,
+                                                "height": 500
+                                            },
+                                            {
+                                                "width": 750,
+                                                "height": 1000
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 750,
+                                        "@id": "https://Dream4873.github.io/outfit-dataset/images/bag",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1000,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://Dream4873.github.io/outfit-dataset/images/bag/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://Dream4873.github.io/outfit-dataset/images/Coat/canvas/",
             "type": "Canvas",
             "label": {
