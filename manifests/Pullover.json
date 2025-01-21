@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Pullover.json",
+  "@type" : "sc:Manifest",
+  "label" : "Pullover",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Pullover",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Nooshin",
+  "sequences" : [ {
+    "@id" : "http://459f870b-022c-4180-abc4-a2f04898c306",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://6d720d46-bac3-40ab-8726-c7d976e3f501",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 682,
+      "width" : 1024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e8ae197a-a5b1-4527-b258-f1de06fa6878",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dream4873.github.io/outfit-dataset/images/pullover/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dream4873.github.io/outfit-dataset/images/pullover",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 682,
+          "width" : 1024
+        },
+        "on" : "http://6d720d46-bac3-40ab-8726-c7d976e3f501"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
