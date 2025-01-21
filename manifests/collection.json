@@ -17,5 +17,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Pullover.json",
     "label" : "Pullover"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Dream4873.github.io/outfit-dataset/manifests/Dress.json",
+    "label" : "Dress"
   } ]
 }
